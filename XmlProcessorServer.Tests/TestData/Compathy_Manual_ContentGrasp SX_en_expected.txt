@@ -1,0 +1,28 @@
+Congratulations on your purchase of the ContentGrasp SX headset.
+This revolutionary device will significantly improve the quality of
+your technical documentation without implementing an additional work
+step. During the normal review, the reviewers or test persons can
+check how comprehensible individual passages were; how carefully individual passages were read; which passages needed to be read repeatedly. This information is recorded by the headset and analyzed by intelligent
+software using a sophisticated algorithm. The result enables detailed, systematic improvement of the comprehensibility
+of technical documentation at an unprecedented level. Strong static, electric
+or high-frequency fields (radio systems, mobile phones, microwave
+ovens) can impair the function of the device and distort the results.
+Try to stay as far as possible from interfering appliances. In extremely rare cases, prolonged
+use of the ContentGrasp SX headset can cause headache and increased
+irritability. Avoid sessions of more than four hours, and regularly
+take breaks. Skin irritation can occur
+at the contact points during prolonged  use. Use the supplied contact
+gel to protect your skin. The ContentGrasp SX headset comprises the following components: ContentGrasp SX headset ContentGrasp SX analysis software Compathy ContentGrasp SX cable remote control These instructions  One bottle of ContentGrasp SX contact gel Intel Core 2 Duo 2.2 GHz or similar AMD CPU 2 GB RAM Windows 7/Windows 8 8 GB free hard disk space Free USB interface Put the ContentGrasp SX headset on like normal earphones. Slightly
+pull the two sides of the headband to adjust the headset to the size
+of your head. Make sure that the two ear pads comfortably encompass your ears.
+This ensures that the sensors on the headband are positioned correctly,
+and your brain waves can be analyzed effectively. Subsequently, open the caps on the right and left ear pad and extract
+the temple sensors as far as they will go. Firmly press the sensors
+to your temples and pull the attached handles. Optionally, you can
+apply some contact gel to your temples. To avoid impairment of the sensor performance, keep your hair out
+of the way between your temples and the sensors. To activate the headset, press the On/Off button on the cable remote
+control. You can also activate the headset via the ContentGrasp SX
+icon in the systray of your computer. Open the document to be evaluated. Confirm the dialog that opens
+up automatically by clicking "Start". Thus, the recording will begin,
+and you should start reading the document. You can always interrupt the recording with the cable remote control,
+which however will also minimize the document.
