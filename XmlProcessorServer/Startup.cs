@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using XmlProcessorServer.Hubs;
+using XmlProcessorServer.Services;
 
 namespace XmlProcessorServer
 {
@@ -21,10 +23,14 @@ namespace XmlProcessorServer
         {
 
             services.AddControllers();
+            services.AddSingleton<IFileAnalyticsRepository, FileAnalyticsRepository>();
+            services.AddSingleton<IXmlHandler, XmlHandler>();
+            services.AddSingleton<IXmlProcessorService, XmlProcessorService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "XmlProcessorServer", Version = "v1" });
             });
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,9 +49,13 @@ namespace XmlProcessorServer
 
             app.UseAuthorization();
 
+            // app.UseEndpoints(endpoints =>
+            // {
+            //     endpoints.MapControllers();
+            // });
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapHub<HandlerHub>("/handlerhub");
             });
         }
     }

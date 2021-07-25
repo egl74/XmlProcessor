@@ -27,8 +27,8 @@ namespace XmlProcessorServer.Tests
             using (var inputFile = File.Open(inputFilePath, FileMode.Open))
             using (var expectedFile = File.Open(expectedresultFilePath, FileMode.Open))
             {
-                byte[] inputBuf = new byte[inputFile.Length];
-                byte[] expectedBuf = new byte[expectedFile.Length];
+                var inputBuf = new byte[inputFile.Length];
+                var expectedBuf = new byte[expectedFile.Length];
                 await Task.WhenAll(inputFile.ReadAsync(inputBuf, 0, inputBuf.Length), expectedFile.ReadAsync(expectedBuf, 0, expectedBuf.Length));
                 var res = await _sut.Process(inputBuf, new List<string> { "li", "p" });
                 Assert.Equal(System.Text.Encoding.Default.GetString(expectedBuf).Replace("\n", "\r\n"), res.Content);
